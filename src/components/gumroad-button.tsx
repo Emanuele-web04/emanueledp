@@ -16,7 +16,7 @@ export default function GumroadButton({
         accentColor,
         "font-medium",
         "px-4 py-3 sm:px-6 sm:py-3",
-        "rounded-full text-black",
+        "rounded-full",
         "border-2 border-black",
         "hover:border-gray-800",
         "transition-all duration-200",
