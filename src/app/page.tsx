@@ -8,7 +8,7 @@ import CopyLinkButton from "@/components/copylink-button";
 const Home = () => {
   return (
     <div
-      className="min-h-screen font-sans bg-white border-x sm:border-x-neutral-200 border-0 relative tracking-tighter w-screen max-w-xl mx-auto"
+      className="min-h-screen font-sans bg-white sm:border-x sm:border-x-neutral-200 relative tracking-tighter w-screen max-w-xl mx-auto"
       style={{
         backgroundImage:
           "radial-gradient(rgba(0,0,0,0.06) 1px, transparent 1px), radial-gradient(rgba(0,0,0,0.04) 1px, transparent 1px)",
