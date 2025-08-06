@@ -1,6 +1,7 @@
 import { Social } from "@/types/social";
-import { FaWhatsapp, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import { FaWhatsapp, FaInstagram, FaLinkedinIn, FaYoutube, FaLink } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { PiSuitcaseSimple } from "react-icons/pi";
 
 export const socials: Social[] = [
   {
@@ -32,7 +33,7 @@ export const socials: Social[] = [
     name: "Youtube",
     url: "https://youtube.com/@emanueledpt?si=…",
     Icon: FaYoutube,
-    bgColor: "bg-[#FF5E63]", // pastel rosso
+    bgColor: "bg-[#F0585D]", // pastel rosso
     accentColor: "text-white"
   },
   {
@@ -42,5 +43,13 @@ export const socials: Social[] = [
     Icon: FaLinkedinIn,
     bgColor: "bg-[#0B94E3]", // pastel blu-linkedin
     accentColor: "text-white"
+  },
+  {
+    id: "portfolio",
+    name: "Portfolio",
+    url: "https://portfolio.emanueledp.site",
+    Icon: PiSuitcaseSimple,
+    bgColor: "bg-neutral-100", // pastel blu-linkedin
+    accentColor: "text-black"
   }
 ];
