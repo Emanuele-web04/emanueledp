@@ -19,7 +19,7 @@ const Home = () => {
         alt="Emanuele Di Pietro"
         objectFit="cover"
         width={500}
-        height={500}
+        height={200}
         className="w-full sm:px-8 px-0 rounded-none bg-black"
       />
       <div className="flex flex-col relative -top-20 items-center justify-center p-8">
@@ -30,8 +30,8 @@ const Home = () => {
           height={100}
           className="rounded-full size-24 border-2 border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]"
         />
-        <h1 className="text-3xl font-bold mt-4">Emanuele Di Pietro</h1>
-        <p className="text-sm">
+        <h1 className="text-3xl font-bold mt-4 text-black">Emanuele Di Pietro</h1>
+        <p className="text-sm text-neutral-800">
           Enhancing your online presence.
         </p>
         <div className="flex mt-8 flex-col w-full gap-4">
