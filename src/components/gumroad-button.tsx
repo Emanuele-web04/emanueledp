@@ -14,10 +14,9 @@ export default function GumroadButton({
       className={cn(
         bgColor,
         accentColor,
-        "hover:bg-gray-50",
         "font-medium",
         "px-4 py-3 sm:px-6 sm:py-3",
-        "rounded-full",
+        "rounded-full text-black",
         "border-2 border-black",
         "hover:border-gray-800",
         "transition-all duration-200",
